@@ -1,0 +1,143 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "ossylabs ossylabs company product resources" "line line line line line" "data data null null software";
+  padding: 70px 49px 68px 48px;
+  margin: 0px;
+}
+
+.footer__ossylabs {
+  grid-area: ossylabs;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.footer__ossylabs__img {
+  width: 163px;
+  margin-bottom: 34px;
+}
+
+.footer__ossylabs__text {
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.7px;
+  margin: 0px;
+}
+
+.footer__company {
+  grid-area: company;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: left;
+  margin-right: 95px;
+}
+
+.footer__company__h3 {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 21px;
+}
+
+.footer__company__list {
+  list-style-type: none;
+  color: #7D7B7C;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.footer__company__list__li {
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.footer__product {
+  grid-area: product;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.footer__product__h3 {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 21px;
+}
+
+.footer__product__list {
+  list-style-type: none;
+  color: #7D7B7C;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.footer__product__list__li {
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.footer__resources {
+  grid-area: resources;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.footer__resources__h3 {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 21px;
+  margin-right: 20px;
+}
+
+.footer__resources__list {
+  list-style-type: none;
+  color: #7D7B7C;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.footer__resources__list__li {
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.footer__line {
+  grid-area: line;
+  margin: 0px;
+}
+
+.footer__line__img {
+  margin: 0px;
+}
+
+.footer__data {
+  margin-top: 18px;
+}
+
+.footer__data__text {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: black;
+}
+
+.footer__software {
+  grid-area: software;
+  margin: 0px;
+  margin-top: 28px;
+  margin-right: 3px;
+  align-items: end;
+  text-align: right;
+}
